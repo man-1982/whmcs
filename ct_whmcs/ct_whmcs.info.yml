@@ -1,0 +1,8 @@
+name: '(CT) WHMCS'
+type: module
+description: '(CT) Base integration with WHMCS API'
+core_version_requirement: ^8.8 || ^9
+package: 'CT'
+dependencies:
+  -  drupal:system (>= 8.8)
+  -  drupal:views_bulk_operations

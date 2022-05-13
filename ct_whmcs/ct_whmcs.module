@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains ct_whmcs.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ct_whmcs_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ct_whmcs module.
+    case 'help.page.ct_whmcs':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('(CT) Base integration with WHMCS API') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,14 @@
+ct_whmcs.settings_form:
+  path: '/admin/config/ct/whmcs'
+  defaults:
+    _form: '\Drupal\ct_whmcs\Form\SettingsForm'
+    _title: 'WHMCS base settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+ct_whmcs.test:
+  path: '/ct_whmcs/test'
+  defaults:
+    _controller: '\Drupal\ct_whmcs\Controller\WHMCSBaseController:test'
+  requirements:
+    _access: 'TRUE'

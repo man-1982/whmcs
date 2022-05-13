@@ -1,0 +1,8 @@
+services:
+    ct_whmsc.base:
+      class:    'Drupal\ct_whmcs\Services\WHMCServiceApi'
+      arguments: ['@current_user', '@user.permissions', '@config.factory']
+
+    logger.channel.ct_whmcs:
+      parent: logger.channel_base
+      arguments: ['ct_whmcs']

@@ -1,0 +1,13 @@
+{
+    "name": "ct_whmcs",
+    "type": "drupal-module",
+    "description": "(CT) Base integrations with WHMCS API",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ct_whmcs",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ct_whmcs",
+        "source": "http://cgit.drupalcode.org/ct_base"
+    }
+}

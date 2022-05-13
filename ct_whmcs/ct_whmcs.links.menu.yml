@@ -1,0 +1,5 @@
+ct_whmcs.settings_form:
+  title: 'WHMCS base settings'
+  description: 'Base settings for connect to WHMCS'
+  parent: ct_base.admin_config
+  route_name: ct_whmcs.settings_form
